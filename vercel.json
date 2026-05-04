@@ -2,11 +2,6 @@
   "version": 2,
   "buildCommand": "vite build",
   "outputDirectory": "dist/client",
-  "functions": {
-    "api/**": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
