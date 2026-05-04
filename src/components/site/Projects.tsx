@@ -1,5 +1,13 @@
 import { ExternalLink, Github, Globe, Smartphone, Palette, Code } from "lucide-react";
 import { useReveal } from "@/hooks/use-scroll";
+import project1 from "@/assets/1.png";
+import project2 from "@/assets/2.png";
+import project3 from "@/assets/3.png";
+import project4 from "@/assets/4.png";
+import project5 from "@/assets/5.png";
+import project6 from "@/assets/6.png";
+import project7 from "@/assets/7.png";
+import project8 from "@/assets/8.png";
 
 const projects = [
   {
@@ -7,7 +15,7 @@ const projects = [
     title: "Which Renewables",
     category: "Web Development",
     description: "WhichRenewables.com is a digital platform that connects renewable energy professionals, businesses, and users, offering insights and networking across the clean energy sector.",
-    image: "/src/assets/1.png",
+    image: project1,
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     link: "https://which-app.vercel.app",
     icon: Globe,
@@ -17,7 +25,7 @@ const projects = [
     title: "Easy Entry",
     category: "Web Development",
     description: "EasyEntry.in is a ticketing platform designed to simplify event entry management, enabling organizers to create, distribute, and validate tickets seamlessly.",
-    image: "/src/assets/2.png",
+    image: project2,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     link: "https://easyentry.in",
     icon: Smartphone,
@@ -27,7 +35,7 @@ const projects = [
     title: "Talent Shield",
     category: "Web Development",
     description: "HRMS.TalentShield.co.uk is a human resource management system portal that allows organizations to manage employee data, attendance, payroll, and other HR processes through a centralized digital platform.",
-    image: "/src/assets/3.png",
+    image: project3,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     link: "https://hrms.talentshield.co.uk",
     icon: Palette,
@@ -37,7 +45,7 @@ const projects = [
     title: "My Guide in Rome",
     category: "Web Development",
     description: "MyGuideInRome.com is a travel platform that helps users explore Rome through curated tours, activities, and local recommendations provided by experts.",
-    image: "/src/assets/4.png",
+    image: project4,
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     link: "https://guide-five-ebon.vercel.app/",
     icon: Code,
@@ -47,7 +55,7 @@ const projects = [
     title: "Self Made Ninja Academy",
     category: "Web Development",
     description: "Selfmade.ninja is an online tech learning platform that offers hands-on courses in programming, cybersecurity, AI, and web development, focused on practical, real-world skills.",
-    image: "/src/assets/5.png",
+    image: project5,
     tech: ["Bootstrap", "Core UI", "Swiper JS"],
     link: "http://selfmade.ninja/",
     icon: Globe,
@@ -56,8 +64,8 @@ const projects = [
     id: 6,
     title: "Gold Winner",
     category: "Web Development",
-    description: "GoldWinner Mother’s Day Campaign is a promotional platform that lets users send personalized Mother’s Day gifts and messages on behalf of the Gold Winner brand.",
-    image: "/src/assets/6.png",
+    description: "GoldWinner Mother's Day Campaign is a promotional platform that lets users send personalized Mother's Day gifts and messages on behalf of the Gold Winner brand.",
+    image: project6,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     link: "https://goldwinner.athryan.com",
     github: null,
@@ -68,7 +76,7 @@ const projects = [
     title: "Self Made Ninja Labs",
     category: "Web Development",
     description: "Selfmade Ninja Labs is a cloud-based virtual lab platform that provides real, hands-on environments for coding, cybersecurity, DevOps, and AI experimentation.",
-    image: "/src/assets/7.png",
+    image: project7,
     tech: ["Bootstrap", "Core UI", "Swiper JS"],
     link: "https://labs.selfmade.ninja/",
     github: null,
@@ -79,7 +87,7 @@ const projects = [
     title: "Sibidharan Personal Portfolio",
     category: "Web Development",
     description: "Sibidharan's personal portfolio website showcasing his work, skills, and projects.",
-    image: "/src/assets/8.png",
+    image: project8,
     tech: ["WordPress"],
     link: "https://sibidharan.me/",
     github: null,
