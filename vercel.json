@@ -1,5 +1,15 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "startCommand": "npm start"
+  "outputDirectory": "dist/client",
+  "rewrites": [
+    {
+      "source": "/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
+  ]
 }
