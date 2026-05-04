@@ -47,7 +47,6 @@ function Index() {
       <Projects />
       <Services />
       <Features />
-      <Stats />
       <Testimonials />
       <Contact />
       <Footer />
